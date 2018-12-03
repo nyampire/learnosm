@@ -16,9 +16,9 @@ Tracing roads, buildings, water and landuse
 
 Questa guida non è attualmente disponibile. È in fase di traduzione. Ti preghiamo di far riferimento alla versione in  
 [English](/en/coordination/)    <!--   
-[Bahasa Indonesia](/bi/coordination/),  
+[Bahasa Indonesia](/id/coordination/),  
 [Catalan](/ca/coordination/)
-[Czech](/cs/coordination/), -->   
+[Czech](/cs/coordination/),   -->  
 [Deutsch](/de/coordination/),  <!--
 [Español](/es/coordination/),  
 [فارسی](/fa/coordination/),  
@@ -27,7 +27,7 @@ Questa guida non è attualmente disponibile. È in fase di traduzione. Ti preghi
 [Italiano](/it/coordination/),  
 [日本語](/ja/coordination/),-->  
 [Myanmar](/my/coordination/),<!--
-[Norsk](/nb/coordination/),-->  
+[Norsk](/nb/coordination/), --> 
 [Nederlands](/nl_NL/coordination/).  <!--
 [Português](/pt/coordination/),  
 [Русский](/ru/coordination/),  

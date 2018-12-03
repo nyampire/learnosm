@@ -8,7 +8,7 @@ category: coordination
 
 #HOT Remote Response Guide   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Deze handleiding kan worden gedownload als  remote-mapping_nl_NL.odt](/files/remote-mapping_nl_NL.odt) of [remote-mapping_nl_NL.pdf](/files/remote-mapping_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015  
@@ -58,7 +58,7 @@ Deze handleiding is een samenvatting van verschillende bestaande handleidingen e
 
 #### Handleidingen
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/nl/coordination/remote/)- een van de meest eenvoudige handleidingen  
+[LearnOSM's Remote Mapping Guide](http://learnosm.org/nl_NL/coordination/remote/)- een van de meest eenvoudige handleidingen  
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- bevat videos die je kunt pauzeren om te volgen   
 

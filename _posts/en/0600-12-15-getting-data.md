@@ -21,13 +21,9 @@ Downloading Data Extracts
 
 [GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
 
-### Metro Extracts
-
-[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) offers something similar as Metro Extracts but for a different selection of cities. The data is updated weekly as well.
+[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means
@@ -37,15 +33,18 @@ Downloading Data Extracts
 >you will need to use one of the more specialized services in the next section
 >or learn how to export the data yourself.
 
+### OSM Extracts by Interline
+
+[Interline Technologies](https://www.interline.io/) provides an [OSM Extracts](https://www.interline.io/osm/extracts/) service with extracts for over 200 metro regions and cities around the world. Extracts are available as [OSM PBF](https://wiki.openstreetmap.org/wiki/PBF_Format), GeoJSON, and GeoJSON Lines (one feature per line). Extracts are created daily. Download through stable URLs or using the [PlanetUtils](https://github.com/interline-io/planetutils) command-line interface. Registration is free but required.
+
 Customized Extracts
 -------------------
 
-### HOT Exports  
+### HOT Export Tool
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. The service is available at [export.hotosm.org](https://export.hotosm.org/en/v3). Within minutes, up-to-date OpenStreetMap (OSM) data is exported, filtered and converted. Areas of interest (AOI) can be selected through searching, bounding box coordinates, drawing a box, free drawing, using the view or importing a GeoJSON file. Current file formats includes Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) and MBTiles (.mbtiles). Map features and specific tags can either be selected through the Tag Tree or by configuring some YAML code. To learn more please, see the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
-![hot exports][]
+![hot export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ Summary
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

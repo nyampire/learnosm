@@ -22,6 +22,7 @@ columnist:
 baseurl: '' #does not include host name
 
 #Prose configurations, see https://github.com/prose/prose/wiki/Prose-Configuration
+
 prose:
   rooturl: '_posts'
   siteurl: "http://learnosm.org/"
@@ -34,6 +35,16 @@ prose:
 
 gems:
   - jekyll-redirect-from
+
+# ranking of other guides in the navigation bar
+priorities:
+  - beginner
+  - josm
+  - coordination
+  - mobile-mapping
+  - osm-data
+  - hot-tips
+  - resources
 
 #translations
 translations:
@@ -49,7 +60,6 @@ translations:
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
   cs:
-    language: "Česky"
     tagline: "Naučte se OpenStreetMap krok za krokem"
     contribute: "Pomožte vylepšit naše průvodce"
     trainingspan: "Organizujete workshopy?"
@@ -57,8 +67,9 @@ translations:
     feedbackspan: "Byla tato kapitola užitečná?"
     feedback: "Napište nám a pomožte nám zlepšit naše návody!"
     getstarted: "Začínáme"
-    returntotop: "Return to top of page"
+    language: "Česky"
     quickaccess: "Quick access"
+    returntotop: "Return to top of page"
   de:
     tagline: "OpenStreetMap Schritt für Schritt lernen"
     contribute: "Hilfe bei der Verbesserung unserer Anleitungen"
@@ -82,7 +93,6 @@ translations:
     quickaccess: "Acceso rápido"
     returntotop: "Regresar al inicio de la página"
   fa:
-    language: "فارسی"
     tagline: "آموزش گام به گام OpenStreetMap"
     contribute: "به بهبود راهنماهای ما کمک کنید"
     trainingspan: "آیا مسئول برگزاری کارگاه آموزشی هستید؟"
@@ -90,8 +100,9 @@ translations:
     feedbackspan: "آیا این بخش مفید بود؟"
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    language: "فارسی"
+    quickaccess: "دسترسی سریع"
+    returntotop: "بازگشت به ابتدای صفحه"
   fr:
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
@@ -103,29 +114,17 @@ translations:
     language: "Français"
     quickaccess: "Accès rapide"
     returntotop: "Retourner en haut de la page"
-  hr:
-    language: "Hrvatski"
-    tagline: "Naučite OpenStreetMap korak po korak"
-    contribute: "Pomozite poboljšati naša uputstva"
-    trainingspan: "Organizirate li radionicu?"
-    training: "Vidi trening materijale za ova uputstva(na engleskom)"
-    feedbackspan: "Je li ovo poglavlje bilo korisno?"
-    feedback: "Javite nam i pomozite nam poboljšati uputstva!"
-    getstarted: "Započnite"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
-  id:
-    language: "Bahasa Indonesia"
-    overview: "Ringkasan"
-    tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
-    contribute: "Bantu tingkatkan panduan kami!"
-    trainingspan: "Apakah Anda seorang pengelola lokakarya?"
-    training: "Periksa materi pelatihan untuk panduan ini (dalam bahasa Inggris)"
-    feedbackspan: "Apakah bab ini bermanfaat?"
-    feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
-    getstarted: "Lanjutkan ke bab berikutnya"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+  hu:
+    tagline: "Az OpenStreetMap megtanulása lépésről lépésre"
+    contribute: "Segíts az útmutatók javításában"
+    trainingspan: "Tanfolyamot szervezel?"
+    training: "Nézd meg az ehhez az útmutatóhoz tartozó képzési anyagot (angol)"
+    feedbackspan: "Hasznos volt-e ez a fejezet?"
+    feedback: "Írd meg az észrevételeid, és segíts, hogy tovább javíthassuk az útmutatókat!"
+    getstarted: "Kezdés"
+    language: "Magyar"
+    quickaccess: "Gyors elérés"
+    returntotop: "Vissza az oldal tetejére"
   it:
     tagline: "Impara ad usare OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide"
@@ -138,8 +137,6 @@ translations:
     quickaccess: "Accesso veloce"
     returntotop: "Ritorna ad inizio pagina"
   ja:
-    language: "日本語"
-    overview: "概要"
     tagline: "はじめてからのOpenStreetMapガイド"
     contribute: "ガイドの拡充にご協力ください"
     trainingspan: "ワークショップ開催を検討されるかたへ"
@@ -147,8 +144,20 @@ translations:
     feedbackspan: "この章は役に立ちましたか？"
     feedback: "ガイドの改善にご意見ください"
     getstarted: "次の章に進む"
-    returntotop: "Return to top of page"
+    language: "日本語"
     quickaccess: "Quick access"
+    returntotop: "Return to top of page"
+  ko:
+    language: "한국어"
+    tagline: "단계별 OpenStreetMap 배우기"
+    contribute: "안내서를 개선하는 데 도움을 주세요"
+    trainingspan: "워크숍 주최자인가요?"
+    training: "이 안내서의 교육 내용을 확인하세요(영어)"
+    feedbackspan: "이 단락이 도움이 되었나요?"
+    feedback: "안내서를 개선하는 걸 도와주고 싶다면 우리에게 알려 주세요!"
+    getstarted: "시작하기"
+    returntotop: "페이지 맨 위로 돌아가기"
+    quickaccess: "빠른 접근"
   my:
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
@@ -160,17 +169,6 @@ translations:
     language: "ဗမာ"
     quickaccess: "ယခုပဲ အမြန်ဝင်ရောက်လိုက်ပါ။"
     returntotop: "စာမျက်နှာ၏ထိပ်သို့ပြန်သွားပါ။"
-  nl_NL:
-    tagline: "Ontdek de mogelijkheden van OpenStreetMap"
-    contribute: "Meehelpen met het verbeteren van handleidingen"
-    trainingspan: "Workshops organizeren?"
-    training: "Materiaal voor deze handleiding (in het Engels)"
-    feedbackspan: "Was dit een goede handleiding?"
-    feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
-    getstarted: "Beginnen"
-    language: "Nederlands"
-    quickaccess: "Snelle toegang"
-    returntotop: "Terug naar begin van de pagina"
   nb:
     tagline: "Lære OpenStreetMap steg for steg"
     contribute: "Hjelp oss med å forbedre våre veiledninger"
@@ -182,18 +180,39 @@ translations:
     language: "Norsk"
     quickaccess: "Hurtigtilgang"
     returntotop: "Gå til toppen av siden"
+  nl_NL:
+    tagline: "Ontdek de mogelijkheden van OpenStreetMap"
+    contribute: "Meehelpen met het verbeteren van handleidingen"
+    trainingspan: "Workshops organizeren?"
+    training: "Materiaal voor deze handleiding (in het Engels)"
+    feedbackspan: "Was dit een goede handleiding?"
+    feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
+    getstarted: "Beginnen"
+    language: "Nederlands"
+    quickaccess: "Snelle toegang"
+    returntotop: "Terug naar begin van de pagina"
+  pl:
+    tagline: "Naucz się OpenStreetMap krok po kroku"
+    contribute: "Pomóż w ulepszaniu naszych przewodników"
+    trainingspan: "Czy jesteś organizatorem warsztatów?"
+    training: "Zobacz materiały szkoleniowe dla tego przewodnika (w języku angielskim)"
+    feedbackspan: "Czy ten rozdział był pomocny?"
+    feedback: "Daj nam znać i pomóż w ulepszeniu przewodników!"
+    getstarted: "Rozpocznij"
+    language: "Polski"
+    returntotop: "Powrót na górę strony"
+    quickaccess: "Szybki dostęp"
   pt:
-    language: "Português"
-    overview: "Sumário"
-    tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
-    contribute: "Ajude-nos a melhorar os nossos guias!"
-    trainingspan: "Você é um organizador de workshop?"
-    training: "Confira material de treinamento para este guia (em Inglês)"
+    tagline: "Aprenda o OpenStreetMap Passo a Passo"
+    contribute: "Ajude a melhorar os nossos guias"
+    trainingspan: "É um organizador de workshops?"
+    training: "Consulte os nossos materiais de apoio para este guia (em inglês)"
     feedbackspan: "Este capítulo foi útil?"
-    feedback: "Conte-nos e ajude a melhorar os guias!"
-    getstarted: "prosseguir para o próximo capítulo"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    feedback: "Diga-nos e ajude-nos a melhorar os guias!"
+    getstarted: "Começar"
+    language: "Português"
+    quickaccess: "Acesso rápido"
+    returntotop: "Voltar ao início da página"
   ru:
     tagline: "Изучаем OpenStreetMap шаг за шагом"
     contribute: "Помогите улучшить наши руководства"
@@ -216,30 +235,18 @@ translations:
     language: "Shqip"
     quickaccess: "Qasje e shpejtë"
     returntotop: "Kthehuni në krye të faqes"
-  sw:
-    language: "Kiswahili"
-    tagline: "Jifunze OpenStreetMap hatua kwa hatua"
-    contribute: "Saidia kuboresha miongozo yetu"
-    trainingspan: "Je wewe ni muaandaaji wa mkutano?"
-    training: "Angalia mafundisho ya huu muongozo(kwa kiingereza)"
-    feedbackspan: "Je hii sura ilikuwa na manufaa?"
-    feedback: "Tujulishe na utusaidie kuboresha miongozo!"
-    getstarted: "Anza"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
-  uk:
-    language: "Українська"
-    tagline: "Знайомимось з OpenStreetMap крок за кроком"
-    contribute: "Допоможіть покращити наші посібники"
-    trainingspan: "Ви проводите семінар?"
-    training: "Ознайомтесь з навчальними матеріалами для цього посібника (англ.)"
-    feedbackspan: "Чи був цей розділ корисним?"
-    feedback: "Повідомте нам і допоможіть нам покращити посібник!"
-    getstarted: "Розпочати"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+  vi:
+    tagline: "Từng bước học OpenStreetMap"
+    contribute: "Giúp chúng tôi cải thiện những hướng dẫn này"
+    trainingspan: "Bạn có phải là người tổ chức các hội thảo?"
+    training: "Kiểm tra các tài liệu tập huấn với hướng dẫn này"
+    feedbackspan: "Chương này có bổ ích hay không?"
+    feedback: "Hãy cho chúng tôi biết và giúp chúng tôi cỉa thiện những hướng dẫn này!"
+    getstarted: "Hãy bắt đầu"
+    language: "Tiếng Việt"
+    quickaccess: "Truy cập nhanh"
+    returntotop: "Quay về đầu trang"
   zh_CN:
-    language: "简体中文"
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"
     trainingspan: "是工作小组组织者吗？"
@@ -247,8 +254,9 @@ translations:
     feedbackspan: "本章节有用吗？"
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
-    returntotop: "Return to top of page"
+    language: "简体中文"
     quickaccess: "Quick access"
+    returntotop: "Return to top of page"
   zh_TW:
     tagline: "一步一腳印學習開放街圖"
     contribute: "幫忙改進我們的指南"
@@ -260,3 +268,73 @@ translations:
     language: "繁體中文"
     quickaccess: "快速連結"
     returntotop: "回到頁面頂端"
+
+# Save this for later use - these languages are not yet installed
+
+#  ar:
+#    tagline: "تعلم OpenStreetMap خطوة بخطوة"
+#    contribute: "ساعد في تحسين دلائلنا"
+#    trainingspan: "هل أنت منظم ورشة عمل؟"
+#    training: "تحقق من المواد التدريبية لهذا الدليل (بالإنجليزية)"
+#    feedbackspan: "هل كان هذا الفصل مفيدا؟"
+#    feedback: "دعونا نعرف وساعدونا في تحسين دلائلنا!"
+#    getstarted: "البدء"
+#    language: "العربية"
+#    quickaccess: "ولوج سريع"
+#    returntotop: "رجوع الى أعلى الصفحة"
+#  bn_BD:
+#    language: "বাংলা"
+#    tagline: "OpenStreetMap ধাপে ধাপে শিখুন"
+#    contribute: "আমাদের গাইডগুলো উন্নত করতে সহযোগিতা করুন"
+#    trainingspan: "আপনি কি workshop সংগঠক?"
+#    training: "এই গাইডের জন্য প্রশিক্ষণ material লক্ষ্য করুন ( ইংরেজিতে )"
+#    feedbackspan: "এই অধ্যায় কি উপকারি  ছিল?"
+#    feedback: "আমাদেরকে জানাতে এবং আমাদের গাইডগুলো উন্নত করতে সহযোগিতা করুন !"
+#    getstarted: "শুরু করা যাক"
+#    returntotop: "পৃষ্ঠার শুরুতে ফিরে যান"
+#    quickaccess: "দ্রুত প্রবেশ"
+#  ca:
+#    tagline: "Apreneu sobre l'OpenStreetMap pas a pas"
+#    contribute: "Ajudeu-nos a millorar les guies"
+#    trainingspan: "Organitzeu tallers?"
+#    training: "Feu una ullada al nostre material de formació per a aquesta guia (en anglès)"
+#    feedbackspan: "Aquest capítol ha estat útil?"
+#    feedback: "Feu-nos ho saber i ajudeu-nos a millorar les guies!"
+#    getstarted: "Iniciació"
+#    language: "Català"
+#    quickaccess: "Accés ràpid"
+#    returntotop: "Torna a la part superior de la pàgin"
+#  he:
+#    language: "עברית"
+#    tagline: "רכישת ידע על OpenStreetMap שלב אחר שלב"
+#    contribute: "סיוע בשיפור המדריכים שלנו"
+#    trainingspan: "תפקידך הוא לארגן סדנאות?"
+#    training: "להלן חומרי תרגול עבור מדריך זה (באנגלית)"
+#    feedbackspan: "פרק זה סייע לך?"
+#    feedback: "נשמח לחוות הדעת שלך ולסיוע שלך לשפר את המדריכים האלה!"
+#    getstarted: "איך מתחילים"
+#    returntotop: "חזרה לראש העמודge"
+#    quickaccess: "גישה מהירה"
+#  kn:
+#    tagline: "ಹಂತ ಹಂತವಾಗಿ ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಕಲಿಯಿರಿ"
+#    contribute: "ನಮ್ಮ ಕೈಪಿಡಿಯನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡಿ"
+#    trainingspan: "ನೀವು ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಕಾರ್ಯಾಗಾರದ ಆಯೋಜಕರೇ?"
+#    training: "ಈ ಕೈಪಿಡಿಯ ತರಬೇತಿ ಪಠ್ಯವನ್ನು ನೋಡಿ(ಇಂಗ್ಲೀಷಿನಲ್ಲಿ)"
+#    feedbackspan: "ಈ ಅಧ್ಯಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆಯೆ?"
+#    feedback: "ಕೈಪಿಡಿಗಳನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿರಿ"
+#    getstarted: "ಪ್ರಾರಂಭಿಸಿ"
+#    language: "ಕನ್ನಡ"
+#    quickaccess: "Quick access"
+#    returntotop: "Return to top of page"
+#  sl:
+#    tagline: "Naučite se uporabljati OpenStreetMap Korak za korakom"
+#    contribute: "Pomagajte nam izboljšati naše vodiče"
+#    trainingspan: "Ali ste organizator delavnic?"
+#    training: "Preglejte učno gradivo tega vodiča (v angleškem jeziku)"
+#    feedbackspan: "Ali vam je bilo to poglavje v pomoč?"
+#    feedback: "Sporočite nam, kako lahko izboljšamo vodiče!"
+#    getstarted: "Začnite"
+#    language: "Slovenščina"
+#    quickaccess: "Hitri dostop"
+#    returntotop: "Vrnite se na vrh strani"
+
